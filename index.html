@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Cajero Automático</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <center>
+       <p><h1>ATM Automatico JPV</h1></p><br/>
+      <img src="imagenes/cajero.JPG" alt="Nature" class="responsive">
+    <p>
+      <strong>Digite el monto de dinero que desea extraer:</strong><br /><br />
+      <input type="number" id="dinero">
+      <input type="button" value="Extraer" id="extraer">
+    </p>
+    <p id="resultado">
+      <strong>Billetes entregados en la transacción actual:</strong><br /><br />
+      <strong>Ninguno</strong>
+    </p>
+    <p id="estadoCajero"></p>
+    <script src="javascripts/cajero.js"></script>
+
+	</center>
+  </body>
+</html>
