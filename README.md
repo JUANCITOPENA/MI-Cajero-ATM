@@ -8,3 +8,6 @@ El codigo lo modifique y actualice a mi pais Republica Dominicana, usando tambie
 de mi pais que ya no estan en vigencias, pero que me parecio muy exelente para tenerlo guardado y verlo en liena.
 
 Espero les guste.
+
+# Imagen del Cajero
+![](imagenes/cajero.jpg)
