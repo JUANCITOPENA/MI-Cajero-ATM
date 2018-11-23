@@ -15,6 +15,7 @@ function cargarDineroCajero()
   caja.push( new Billete(200, 10) );
   caja.push( new Billete(100, 10) );
   caja.push( new Billete(50, 10) );
+  caja.push( new Billete(25, 10) );
   caja.push( new Billete(20, 10) );
   caja.push( new Billete(10, 10) );
   caja.push( new Billete(5, 10) );
@@ -85,16 +86,19 @@ function obtenerUriImagenBillete(valor)
   switch (valor)
   {
     case 1:
-      uri = "imagenes/1.jpg";
+      uri = "imagenes/moneda_1.png";
     break;
     case 5:
-      uri = "imagenes/5.jpg";
+      uri = "imagenes/moneda_5.png";
     break;
     case 10:
-      uri = "imagenes/10.jpg";
+      uri = "imagenes/moneda_10.png";
     break;
     case 20:
       uri = "imagenes/20.jpg";
+    break;
+    case 25:
+      uri = "imagenes/moneda_25.png";
     break;
     case 50:
       uri = "imagenes/50.jpeg";
