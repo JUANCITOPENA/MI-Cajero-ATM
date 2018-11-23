@@ -3,26 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Cajero Automático</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+    <link rel="icon" href="imagenes/favicon-64.png" sizes="72x72">
 
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+   
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+	<!-- Tema opcional -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
   </head>
   <body>
-    <center>
-       <p><h1>ATM Automatico JPV</h1></p><br/>
-      <img src="imagenes/cajero.jpg" alt="Nature" class="responsive">
-    <p>
+    <div class="contenedor">
+      <h1>ATM Automatico JPV</h1><br/>
+      <img class="cajero" src="imagenes/cajero.jpg" alt="Nature" class="responsive">
+      <div class="caja_dinero">
+      <p id="dinero_esperado">
       <strong>Digite el monto de dinero que desea extraer:</strong><br /><br />
-      <input type="number" id="dinero">
-      <input type="button" value="Extraer" id="extraer">
-    </p>
-    <p id="resultado">
+      <input class="caja" type="number" id="dinero">
+      	<!--<button type="button" class="glyphicon glyphicon glyphicon-eject" value="Extraer" id="extraer"></button>-->
+      <button type="button" class=" glyphicon glyphicon glyphicon-eject btn btn-success" value="Extraer" id="extraer"> Extraer</button>
+      </p>
+      </div>
+      <p id="resultado">
       <strong>Billetes entregados en la transacción actual:</strong><br /><br />
       <strong>Ninguno</strong>
-    </p>
+      </p>
     <p id="estadoCajero"></p>
     <script src="javascripts/cajero.js"></script>
 
-	</center>
+  </div>
   </body>
 </html>
