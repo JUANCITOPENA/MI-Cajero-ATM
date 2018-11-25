@@ -1,87 +1,221 @@
-
-.contenedor{
-    width: 45%;
-    margin: 0px auto; /* center un Bloque */
+.contenedor {
+    width: 35%;
+    margin: 0px auto;
+    /* center un Bloque */
     text-align: center;
     background: #d1ccc0;
-  }
-  
+}
+
 
 img {
-    max-width: 100%;  
+    max-width: 90%;
     height: auto;
     border-bottom: 5px solid #FF5722;
 }
 
 
-h1{
+h1 {
     color: #b3b4c4;
     text-align: center;
 
-  }
+}
 
 input {
+    width: 25%;
     height: auto;
-    background:yellow;
-    text-align: center;  
-    
+    background: yellow;
+    text-align: center;
+
 }
 
 .caja {
-    font-weight:bold;
+    width: 25%;
+    height: auto;
+    font-weight: bold;
     font-size: 15px;
     color: #130f40;
-    margin: 0px auto; /* center un Bloque */
+    margin: 0px auto;
+    /* center un Bloque */
 }
+
 p {
     color: blue;
     text-align: center;
     font-size: 15px;
 }
 
-@viewport{
+@viewport {
     zoom: 1.0;
     width: extend-to-zoom;
 }
 
-@media (max-width:1100px){
-    .cajero{
-      width: 65%;
-      float: none;
-      margin: 0px auto;
-   }
-   img {
-    max-width: 100%;  
-    height: auto;
-    border-bottom: 5px solid #FF5722;
-}
+@media (max-width:1100px) {
+    .contenedor {
+        width: 450px;
+        margin: 0px auto;
+        /* center un Bloque */
+        text-align: center;
+        background: #d1ccc0;
+    }
 
-  }
- 
- @media (max-width:460px){
-    .cajero{
-        width: 45%;
+    .cajero {
+        width: 65%;
         float: none;
         margin: 0px auto;
-     }
-     img {
-        max-width: 100%;  
+    }
+
+    img {
+        max-width: 100%;
         height: auto;
         border-bottom: 5px solid #FF5722;
     }
-    
- }
- 
- @media (max-width:377px){
-     
-  .cajero{
-    width: 150px;
-    float: none;
-    margin: 0px auto;
- }
- img {
-    max-width: 100%;  
-    height: auto;
-    border-bottom: 5px solid #FF5722;
+
 }
- }
+
+
+@media (max-width:900px) {
+    .contenedor {
+        width: 350px;
+        margin: 0px auto;
+        /* center un Bloque */
+        text-align: center;
+        background: #d1ccc0;
+    }
+
+    .cajero {
+        width: 65%;
+        float: none;
+        margin: 0px auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 5px solid #FF5722;
+    }
+
+}
+
+
+@media (max-width:490px) {
+    .contenedor {
+        width: 490px;
+        margin: 0px auto;
+        /* center un Bloque */
+        text-align: center;
+        background: #d1ccc0;
+    }
+
+    .cajero {
+        width: 55%;
+        float: none;
+        margin: 0px auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 5px solid #FF5722;
+    }
+
+    input {
+        width: 25%;
+        height: auto;
+        background: yellow;
+        text-align: center;
+
+    }
+
+    .caja {
+        width: 65%;
+        height: auto;
+        font-weight: bold;
+        font-size: 15px;
+        color: #130f40;
+        margin: 10px;
+        /* center un Bloque */
+    }
+
+}
+
+@media (max-width:460px) {
+    .contenedor {
+        width: 490px;
+        margin: 0px auto;
+        /* center un Bloque */
+        text-align: center;
+        background: #d1ccc0;
+    }
+
+    .cajero {
+        width: 55%;
+        float: none;
+        margin: 0px auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 5px solid #FF5722;
+    }
+
+    input {
+        width: 25%;
+        height: auto;
+        background: yellow;
+        text-align: center;
+
+    }
+
+    .caja {
+        width: 45%;
+        height: auto;
+        font-weight: bold;
+        font-size: 15px;
+        color: #130f40;
+        margin: 10px;
+        /* center un Bloque */
+    }
+
+}
+
+@media (max-width:377px) {
+    .contenedor {
+        width: 100%;
+        margin: 0px auto;
+        /* center un Bloque */
+        text-align: center;
+        background: #d1ccc0;
+    }
+
+    .cajero {
+        width: 100%;
+        float: center;
+        margin: 0px auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 5px solid #FF5722;
+    }
+
+    input {
+        width: 25%;
+        height: auto;
+        background: yellow;
+        text-align: center;
+
+    }
+
+    .caja {
+        width: 35%;
+        height: auto;
+        font-weight: bold;
+        font-size: 15px;
+        color: #130f40;
+        margin: 10px;
+     
+    }
+
+}
