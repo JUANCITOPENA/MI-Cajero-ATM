@@ -182,7 +182,7 @@ p {
 @media (max-width:377px) {
     .contenedor {
         width: 100%;
-        margin: 0px auto;
+        margin: 100%;
         /* center un Bloque */
         text-align: center;
         background: #d1ccc0;
