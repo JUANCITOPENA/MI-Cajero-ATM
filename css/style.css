@@ -99,7 +99,7 @@ p {
 
 @media (max-width:490px) {
     .contenedor {
-        width: 490px;
+        width: 100%;
         margin: 0px auto;
         /* center un Bloque */
         text-align: center;
@@ -140,7 +140,7 @@ p {
 
 @media (max-width:460px) {
     .contenedor {
-        width: 490px;
+        width: 100%;
         margin: 0px auto;
         /* center un Bloque */
         text-align: center;
