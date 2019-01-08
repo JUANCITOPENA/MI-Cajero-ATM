@@ -10,4 +10,4 @@ de mi pais que ya no estan en vigencias, pero que me parecio muy exelente para t
 Espero les guste.
 
 # Imagen del Cajero
-![](imagenes/cajero.jpg)
+![](imagenes/cajeroatm.jpg)
