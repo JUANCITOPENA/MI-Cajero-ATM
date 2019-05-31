@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Cajero Automático</title>
-    
+
     <link rel="icon" href="imagenes/favicon-64.png" sizes="72x72">
 
     <meta name="viewport" content="initial-scale=1, width=device-width">
-   
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    
-	<!-- Tema opcional -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- 
-  </head>
-  <body>
-    <div class="contenedor">
-	<img id="logo" src="imagenes/logo.png">
-      <h1>ATM Automatico JPV</h1><br/>
-     
-      <div class="caja_dinero">
-      <p id="dinero_esperado">
-      <strong>Digite el monto de dinero que desea extraer:</strong><br /><br />
-      <input class="caja" type="number" id="dinero">
-      	<!--<button type="button" class="glyphicon glyphicon glyphicon-eject" value="Extraer" id="extraer"></button>-->
-      <button type="button" class=" glyphicon glyphicon glyphicon-eject btn btn-success" value="Extraer" id="extraer"> Extraer</button>
-      </p>
-      </div>
-      <p id="resultado">
-      <strong>Billetes entregados en la transacción actual:</strong><br /><br />
-      <strong>Ninguno</strong>
-      </p>
-    <p id="estadoCajero"></p>
-    <script src="javascripts/cajero.js"></script>
 
-  </div>
-  </body>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Tema opcional -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <img id="logo" src="imagenes/logo.png">
+        <h1>ATM Automatico JPV</h1><br/>
+
+        <div class="caja_dinero">
+            <p id="dinero_esperado">
+                <strong>Digite el monto de dinero que desea extraer:</strong><br /><br />
+                <input class="caja" type="number" id="dinero">
+                <!--<button type="button" class="glyphicon glyphicon glyphicon-eject" value="Extraer" id="extraer"></button>-->
+                <button type="button" class=" glyphicon glyphicon glyphicon-eject btn btn-success" value="Extraer" id="extraer"> Extraer</button>
+            </p>
+        </div>
+        <p id="resultado">
+            <strong>Billetes entregados en la transacción actual:</strong><br /><br />
+            <strong>Ninguno</strong>
+        </p>
+        <p id="estadoCajero"></p>
+        <script src="javascripts/cajero.js"></script>
+
+    </div>
+</body>
+
 </html>
