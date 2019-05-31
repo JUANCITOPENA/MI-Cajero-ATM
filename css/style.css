@@ -1,15 +1,17 @@
 .contenedor {
-    width: 35%;
+    width: 40%;
     margin: 0px auto;
     /* center un Bloque */
     text-align: center;
     background: #d1ccc0;
 }
-#logo{
+
+#logo {
     max-width: 50%;
     height: auto;
     border-bottom: 5px solid #FF5722;
 }
+
 
 /*
 img {
@@ -18,11 +20,9 @@ img {
     border-bottom: 5px solid #FF5722;
 }*/
 
-
 h1 {
     color: #b3b4c4;
     text-align: center;
-
 }
 
 input {
@@ -30,7 +30,6 @@ input {
     height: auto;
     background: yellow;
     text-align: center;
-
 }
 
 .caja {
@@ -62,21 +61,17 @@ p {
         text-align: center;
         background: #d1ccc0;
     }
-
     .cajero {
         width: 65%;
         float: none;
         margin: 0px auto;
     }
-
     img {
-        max-width: 100%;
+        max-width: 95%;
         height: auto;
         border-bottom: 5px solid #FF5722;
     }
-
 }
-
 
 @media (max-width:900px) {
     .contenedor {
@@ -86,21 +81,17 @@ p {
         text-align: center;
         background: #d1ccc0;
     }
-
     .cajero {
         width: 65%;
         float: none;
         margin: 0px auto;
     }
-
     img {
         max-width: 100%;
         height: auto;
         border-bottom: 5px solid #FF5722;
     }
-
 }
-
 
 @media (max-width:490px) {
     .contenedor {
@@ -110,27 +101,22 @@ p {
         text-align: center;
         background: #d1ccc0;
     }
-
     .cajero {
         width: 55%;
         float: none;
         margin: 0px auto;
     }
-
     img {
         max-width: 100%;
         height: auto;
         border-bottom: 5px solid #FF5722;
     }
-
     input {
         width: 25%;
         height: auto;
         background: yellow;
         text-align: center;
-
     }
-
     .caja {
         width: 25%;
         height: auto;
@@ -140,7 +126,6 @@ p {
         margin: 10px;
         /* center un Bloque */
     }
-
 }
 
 @media (max-width:460px) {
@@ -151,27 +136,22 @@ p {
         text-align: center;
         background: #d1ccc0;
     }
-
     .cajero {
         width: 55%;
         float: none;
         margin: 0px auto;
     }
-
     img {
         max-width: 100%;
         height: auto;
         border-bottom: 5px solid #FF5722;
     }
-
     input {
         width: 25%;
         height: auto;
         background: yellow;
         text-align: center;
-
     }
-
     .caja {
         width: 45%;
         height: auto;
@@ -181,7 +161,6 @@ p {
         margin: 10px;
         /* center un Bloque */
     }
-
 }
 
 @media (max-width:377px) {
@@ -192,27 +171,22 @@ p {
         text-align: center;
         background: #d1ccc0;
     }
-
     .cajero {
         width: 100%;
         float: center;
         margin: 0px auto;
     }
-
     img {
         max-width: 100%;
         height: auto;
         border-bottom: 5px solid #FF5722;
     }
-
     input {
         width: 25%;
         height: auto;
         background: yellow;
         text-align: center;
-
     }
-
     .caja {
         width: 25%;
         height: auto;
@@ -220,7 +194,5 @@ p {
         font-size: 15px;
         color: #130f40;
         margin: 10px;
-     
     }
-
 }
